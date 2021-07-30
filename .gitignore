@@ -1,2 +1,5 @@
-.env
-node_modules
+# All Enviromental Variables
+*.env
+
+# Dependancy directory
+node_modules/
