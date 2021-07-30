@@ -36,7 +36,7 @@ app.get('/dinoname', async (request, response) => {
   const fetchApi = await fetch('https://random-user.p.rapidapi.com/getuser', {
     method: 'GET',
     headers: {
-      'x-rapidapi-key': '737f4d0490msh14874dfe832431cp1c79cdjsn199d292740e5',
+      'x-rapidapi-key': api_key,
       'x-rapidapi-host': 'random-user.p.rapidapi.com',
     },
   });
