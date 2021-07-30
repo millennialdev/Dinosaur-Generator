@@ -29,5 +29,5 @@ async function getDinoImage() {
   img.id = 'dinoImage';
   img.src = dinoImageUrl;
   img.alt = dinoAlt;
-  document.querySelector('.generator').appendChild(img);
+  document.querySelector('.container').appendChild(img);
 }
